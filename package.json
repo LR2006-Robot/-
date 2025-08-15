@@ -1,0 +1,26 @@
+{
+  "name": "privacy-cross-chain",
+  "version": "1.0.0",
+  "description": "Privacy-preserving cross-chain solution",
+  "main": "dist/PrivacyCrossChainBridge.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/PrivacyCrossChainBridge.js",
+    "install-dependencies": "npm install"
+  },
+  "dependencies": {
+    "@moca-network/crypto-utils": "^1.0.0",
+    "@moca-network/did-core": "^1.0.0",
+    "@moca-network/post-quantum": "^1.0.0",
+    "axios": "^1.4.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "ethers": "^5.7.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.2",
+    "typescript": "^5.0.0"
+  }
+}
